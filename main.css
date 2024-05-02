@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, button,
+.mensagem-verdade,
+.mensagem-falso {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: rgb(114, 20, 125);
+    border-style: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(114, 20, 125);
+}
+
+.mensagem-verdade{
+    background-color: rgb(186, 35, 203);
+    border-style: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.mensagem-falso{
+    background-color: rgb(152, 26, 39);
+    border-style: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
